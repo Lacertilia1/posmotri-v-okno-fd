@@ -101,7 +101,7 @@ html {
 }
 
 .search-form__label:has(:focus-visible) {
-  outline: 1px solid #fff;
+  outline: 1px solid currentColor;
   outline-offset: 1px;
 }
 
@@ -109,12 +109,12 @@ html {
   width: 225px;
   min-height: 27px;
   border: none;
-  border-top: 1px solid #fff;
+  border-top: 1px solid currentColor;
   border-right: 1px solid transparent;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid currentColor;
   border-left: 1px solid transparent;
   outline: none;
-  color: #fff;
+  color: currentColor;
   font-family: inherit;
   font-size: inherit;
   background-color: transparent;
@@ -130,7 +130,7 @@ html {
 .search-form__pseudo-checkbox {
   width: 20px;
   height: 20px;
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   padding: 1px;
 }
 
@@ -140,7 +140,7 @@ html {
   width: 100%;
   height: 100%;
   opacity: 0;
-  background-color: #fff;
+  background-color: currentColor;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
@@ -165,8 +165,8 @@ html {
   justify-content: center;
   align-items: center;
   min-height: 34px;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid currentColor;
+  color: currentColor;
   font-family: inherit;
   font-weight: 700;
   text-align: center;
@@ -187,7 +187,7 @@ html {
 }
 
 .button:focus-visible {
-  outline: 1px solid #fff;
+  outline: 1px solid currentColor;
   outline-offset: 1px;
 }
 
@@ -243,7 +243,7 @@ html {
 
 .content__card-link {
   display: block;
-  color: #fff;
+  color: currentColor;
   line-height: 0.9;
   text-decoration: none;
 }
@@ -253,7 +253,7 @@ html {
 }
 
 .content__card-link:focus-visible {
-  outline: 1px solid #fff;
+  outline: 1px solid currentColor;
   outline-offset: 0;
 }
 
