@@ -1,4 +1,1 @@
-
-Не забудьте установить зависимости `npm i` 
-
-Основные команды описаны в `package.json`
+https://github.com/Lacertilia1/posmotri-v-okno-fd
