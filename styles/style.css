@@ -43,7 +43,7 @@ ol {
   align-items: center;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Fira Sans Condensed', 'Arial Narrow', 'Helvetica Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   inline-size: 1200px;
@@ -234,16 +234,10 @@ ol {
 }
 
 .title {
-  display: flex;
-  flex-direction: column;
-  font-family: Oswald;
+  font-family: Oswald, Impact, 'Arial Black', sans-serif;
   font-size: 75px;
   line-height: 0.94;
   text-transform: uppercase;
-}
-
-.title__text {
-  display: block;
 }
 
 .content__accent {
