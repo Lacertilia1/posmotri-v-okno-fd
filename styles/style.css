@@ -97,7 +97,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-  font-weight: 400;
+  font-weight: inherit;
   font-size: inherit;
 }
 
@@ -134,7 +134,7 @@ ol {
   border-bottom: 1px solid currentColor;
   border-left: 1px solid transparent;
   outline: none;
-  color: currentColor;
+  color: inherit;
   font-family: inherit;
   font-size: inherit;
   background-color: transparent;
@@ -167,10 +167,6 @@ ol {
   opacity: 1;
 }
 
-.search-form__label-text {
-  line-height: 1;
-}
-
 .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
   text-decoration-thickness: 1px;
@@ -186,11 +182,10 @@ ol {
   align-items: center;
   min-height: 34px;
   border: 1px solid currentColor;
-  color: currentColor;
+  color: inherit;
   font-family: inherit;
   font-weight: 700;
   font-size: inherit;
-  text-align: center;
   background-color: transparent;
 }
 
@@ -230,7 +225,8 @@ ol {
   gap: 26px;
   width: 100%;
   height: 100%;
-  padding-top: 3px;
+  padding-right: 3px;
+  padding-left: 3px;
 }
 
 .title {
