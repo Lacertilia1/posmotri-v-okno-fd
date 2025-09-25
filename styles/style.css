@@ -191,6 +191,7 @@ ol {
   font-weight: 700;
   text-align: center;
   background-color: transparent;
+  font-size: inherit;
 }
 
 .button:hover {
@@ -214,7 +215,6 @@ ol {
 .search-form__submit-button {
   flex-grow: 1;
   align-self: end;
-  font-size: inherit;
 }
 
 .more-button {
