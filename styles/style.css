@@ -227,17 +227,23 @@ ol {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 18px;
+  gap: 26px;
   width: 100%;
   height: 100%;
-  padding-top: 10px;
+  padding-top: 3px;
 }
 
 .title {
+  display: flex;
+  flex-direction: column;
   font-family: Oswald;
   font-size: 75px;
   line-height: 0.94;
   text-transform: uppercase;
+}
+
+.title__text {
+  display: block;
 }
 
 .content__accent {
