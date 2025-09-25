@@ -259,7 +259,7 @@ ol {
 
 .content__card-link {
   display: block;
-  color: currentColor;
+  color: inherit;
   line-height: 0.9;
   text-decoration: none;
 }
@@ -277,7 +277,6 @@ ol {
   text-decoration: underline;
   text-decoration-skip-ink: none;
 }
-
 
 .content__card-link:active {
   background-color: #545050;
@@ -297,7 +296,7 @@ ol {
 
 .content__video-card-title {
   overflow: hidden;
-  font-family: Oswald;
+  font-family: Oswald, Impact, 'Arial Black', sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 1;
@@ -309,7 +308,6 @@ ol {
 .content__video-card-description {
   display: -webkit-box;
   overflow: hidden;
-  font-weight: 400;
   line-height: 0.9;
   -webkit-line-clamp: 4;
   line-clamp: 4;
