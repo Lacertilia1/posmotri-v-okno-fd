@@ -63,7 +63,7 @@ ol {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  gap: 16px;
+  gap: 18px;
 }
 
 .result__video-container {
@@ -85,7 +85,8 @@ ol {
   display: flex;
   justify-content: space-between;
   align-items: start;
-  gap: 40px;
+  gap: 39px;
+  padding-bottom: 3px;
 }
 
 .search-form__fieldset {
@@ -109,7 +110,6 @@ ol {
   display: flex;
   align-items: center;
   gap: 5px;
-  width: fit-content;
 }
 
 .search-form__label:hover {
@@ -189,9 +189,9 @@ ol {
   color: currentColor;
   font-family: inherit;
   font-weight: 700;
+  font-size: inherit;
   text-align: center;
   background-color: transparent;
-  font-size: inherit;
 }
 
 .button:hover {
